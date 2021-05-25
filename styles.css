@@ -1,3 +1,44 @@
-p {
-  color: gray !important;
+:root {
+  --transition: all 0.3s !important;
+}
+
+.notion-collection__header, .notion-toggle.bg-gray {
+    display: none !important;
+}
+
+
+
+.notion-collection-list {
+    border-top: none !important;
+    padding: 0px !important;
+    margin-top: 16px !important;
+}
+
+
+.notion-property__title__icon-wrapper {
+    display: none !important;
+}
+
+
+
+h1, h2, h3 {
+    font-weight: 600 !important;
+}
+
+
+.notion-collection-list__item .notion-property__title .notion-semantic-string>span {
+    border-bottom: none !important;
+}
+
+.notion-collection-list__item {
+    padding: 0px !important;
+    margin: 8px 0px !important;
+    opacity: 1 !important;
+    transition: var(--transition) !important;
+}
+
+.notion-collection-list__item:hover {
+    background-color: transparent !important;
+    opacity: 0.5 !important;
+    transition: var(--transition) !important;
 }
