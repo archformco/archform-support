@@ -25,7 +25,7 @@ notion-header__title {
 
 .notion-page__title .notion-semantic-string {
     border-bottom: none !important;
-    padding: 8px 0px !important;
+    padding: 8px 4px !important;
 
 }
 
@@ -35,7 +35,7 @@ notion-header__title {
 
 
 .notion-page>div:hover {
-    background: transparent !important;
-    color: #0076FF !important;
+/*     background: transparent !important; */
+/*     color: #0076FF !important; */
     transition: var(--transition) !important;
 }
