@@ -2,7 +2,7 @@
   --transition: all 0.2s !important;
 }
 
-.notion-collection__header, .notion-page__icon {
+.notion-page__icon {
     display: none !important;
 }
 
@@ -10,21 +10,21 @@
     display: none !important;
 }
 
-notion-header__title {
-    color: #37352f !important;
-}
-
-.notion-heading {
+#page-index .notion-heading {
     font-weight: 600 !important;
     margin: 0px 0px 16px 8px !important;
     padding: 0px !important;
 }
 
-.notion-text {
+#page-index .notion-text {
     margin-left: 8px !important;
 }
 
 .notion-page__title .notion-semantic-string {
+
+}
+
+#page-index .notion-page__title .notion-semantic-string {
     font-weight: 400 !important;
     margin-left: 8px !important;
     transiton: var(--transition) !important;
@@ -38,6 +38,7 @@ notion-header__title {
 .notion-page>div {
     transition: var(--transition) !important;
 }
+
 
 .notion-page>div:hover {
     transition: var(--transition) !important;
