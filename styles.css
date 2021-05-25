@@ -6,7 +6,6 @@
     display: none !important;
 }
 
-
 .notion-property__title__icon-wrapper {
     display: none !important;
 }
@@ -17,22 +16,28 @@ notion-header__title {
 
 .notion-heading {
     font-weight: 600 !important;
-    margin: 0px 0px 16px 8px  !important;
+    margin: 0px 0px 16px 8px !important;
     padding: 0px !important;
 }
 
+.notion-text {
+    margin-left: 8px !important;
+}
 
 .notion-page__title .notion-semantic-string {
-    border-bottom: none !important;
-    padding: 8px !important;
     font-weight: 400 !important;
+    margin-left: 8px !important;
+    transiton: var(--transition) !important;
+}
 
+.notion-page__title .notion-semantic-string:hover {
+    border-bottom: none !important;
+    transiton: var(--transition) !important;
 }
 
 .notion-page>div {
     transition: var(--transition) !important;
 }
-
 
 .notion-page>div:hover {
     transition: var(--transition) !important;
