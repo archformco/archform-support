@@ -43,3 +43,8 @@
 .notion-page>div:hover {
     transition: var(--transition) !important;
 }
+
+#page-index .link {
+    opacity: 1 !important;
+    border-bottom: 1px solid var(--color-border-dark) !important;
+}
